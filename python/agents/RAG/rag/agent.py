@@ -38,7 +38,7 @@ if rag_corpus:
                 # please fill in your own rag corpus
                 # here is a sample rag corpus for testing purpose
                 # e.g. projects/123/locations/us-central1/ragCorpora/456
-                rag_corpus=rag_corpus
+                rag_corpus=projects/agente-iso-9000-478022/locations/global/ragCorpora/datastore-arquitectura-agente-iso-90_1763487310987
             )
         ],
         similarity_top_k=10,
