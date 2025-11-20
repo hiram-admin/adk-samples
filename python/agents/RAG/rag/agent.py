@@ -25,7 +25,7 @@ load_dotenv()
 
 # Build tools list conditionally based on RAG_CORPUS availability
 tools = []
-rag_corpus = os.environ.get("RAG_CORPUS")
+rag_corpus = "projects/agente-iso-9000-478022/locations/us-central1/ragCorpora/nueva-dir-carpeta-nativa-iso-hg_1763681339250"
 
 if rag_corpus:
     ask_vertex_retrieval = VertexAiRagRetrieval(
